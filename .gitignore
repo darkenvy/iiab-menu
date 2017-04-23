@@ -1,0 +1,6 @@
+#symlink to itself
+#artifact of working on the repo without being on a pi requires a symlink
+iiab-menu/
+
+common/assets/zim_version_idx.json
+.DS_Store
