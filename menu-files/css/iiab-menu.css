@@ -2,8 +2,10 @@ body {
     background-color: #CBFFAA;
     font-family: sans-serif;
     font-size: 100%;
-    width: 1180px;
-    margin: auto;
+    /*width: 1180px;*/
+    margin: 0 auto;
+    max-width: 1180px;
+    /*margin: auto;*/
 }
 
 a {
@@ -93,7 +95,7 @@ b { font-weight: bold; }
 
 .content-item ul {
     float: left;  /* float keeps ul from flowing under thumbnail,  */
-    width: 1000px; /* defining max available width keeps float from */
+    /* width: 1000px; */ /* defining max available width keeps float from */
                   /* squishing multiple columns too closely */
     margin: 10px 0 10px 0;
     font-size: 80%;
